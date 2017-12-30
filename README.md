@@ -1,13 +1,13 @@
 # For our mcpe server !!
 # Members:
-		1) Chadigo(server master)
-		2) 凱杰(server operator)
-		3) Cmen(server operator)
-		4) lovelive(server operator)
-		5) ......
+	1) Chadigo(server master)
+	2) 凱杰(server operator)
+	3) Cmen(server operator)
+	4) lovelive(server operator)
+	5) ......
 
 # The Outlines of Server Development
-		waiting for edition
+	waiting for edition
 	
 # About Plugins
 	A) what plugins we need
