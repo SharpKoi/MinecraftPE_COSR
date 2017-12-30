@@ -1,7 +1,7 @@
 # For our mcpe server !!
   # Members:
-    1) Chadigo(server master)
-    2) 凱杰(server operator)
+		1) Chadigo(server master)
+		2) 凱杰(server operator)
     3) Cmen(server operator)
 		4) lovelive(server operator)
 		5) ......
@@ -18,7 +18,7 @@
 	# ......
 	
 ================================================
-檔案格式: 
+# 檔案格式: 
 	[檔案類型][名稱][簡述]
 	
 ......待編輯
