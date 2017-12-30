@@ -1,0 +1,2 @@
+INDEX VERSION 1.130+C:\Users\asd27\Desktop\nukkit\.metadata\.plugins\org.eclipse.jdt.core
+3187027974.index
