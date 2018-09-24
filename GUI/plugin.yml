@@ -1,8 +1,0 @@
-name: Gui
-main: Gui.java.Main
-version: 1.0
-api: "1.0.0"
-commands:
- test:
-  description: "Test Command"
-  usage: "/Test"
