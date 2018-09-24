@@ -1,0 +1,8 @@
+name: CNPC
+main: cosr.cnpc.CNPCMain
+version: 1.0
+api: ["1.0.0"]
+commands: 
+ cnpc: 
+  description: "NPC command"
+  usage: /cnpc

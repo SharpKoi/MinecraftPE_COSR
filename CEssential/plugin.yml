@@ -1,0 +1,44 @@
+name: CEssential
+main: cosr.ess.Essential
+version: 1.0
+api: "1.0.0"
+depend: [CRolePlay, CMultiWorld, CEconomy, McpeSMail, CSocial, CVIP]
+commands: 
+ getpf: 
+  description: "取得個人檔案"
+  usage: /getpf
+ clc: 
+  description: ""
+  usage: /clc
+ oplist:
+  description: ""
+  usage: /oplist
+ burn: 
+  description: ""
+  usage: /burn
+ full: 
+  description: ""
+  usage: /full
+ cure: 
+  description: ""
+  usage: /cure
+ clean: 
+  description: ""
+  usage: /clean
+ summon:
+  description: "toy"
+  usage: /summon
+ fly: 
+  description: "allow to fly"
+  usage: /fly
+ home: 
+  description: "home"
+  usage: /home
+ inv-empty: 
+  description: "清空背包中所有物品"
+  usage: /inv-empty
+  permission: op
+ unload: 
+  description: "??"
+  usage: /???
+  permission: op

@@ -1,0 +1,14 @@
+name: CRolePlay
+main: cosr.roleplay.CRolePlay
+version: 1.0
+api: "1.0.0"
+commands:
+ title:
+  description: "玩家稱號"
+  usage: "/title help"
+ achv: 
+  description: "玩家成就"
+  usage: "/achv [help;grant]"
+ lv:
+  description: "玩家等級"
+  usage: "/lv help"

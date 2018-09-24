@@ -1,0 +1,38 @@
+name: CEconomy
+main: cosr.economy.CEconomy
+api: "1.0.0"
+author: Cmen
+version: 0.0
+commands:
+ 'cec': 
+  description: ""
+  usage: ""
+ 'cp$': 
+  description: this command is for point.
+  usage: "\n
+  /cp$ help  查看點券幫助\n
+  /cp$ give [player_name] [dollar]  給予指定的玩家點券\n
+  /cp$ wallet  查看您的點券數"
+ 'c$':
+  description: this command is for money.
+  usage: "\n
+  /c$ help  查看金錢幫助\n
+  /c$ give [player_name] [dollar]  給予指定的玩家金錢\n
+  /c$ wallet  查看您的錢包"
+ 'cbank':
+  description: this command is for bank.
+  usage: "\n
+  /cbank  禪看當前伺服器銀行狀態\n
+  /cbank help  查看伺服器銀行幫助\n
+  /cbank store [dollar]  將指定金額存入銀行\n
+  /cbank draw [dollar]  將指定金額從銀行裡取出\n
+  /cbank loan [dollar]  向銀行申請指定金額的貸款\n
+  /cbank pb [dollar]  向銀行還貸"
+  
+ 'cjob':
+  description: this command is for job.
+  usage: "\n
+  /cjob help  查看工作幫助\n
+  /cjob list  列出當前所有可得的工作\n
+  /cjob get [job_name]  取得該工作\n
+  /cjob quit  辭職"

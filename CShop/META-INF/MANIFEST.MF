@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: ./CEconomy.jar .lib/CEssAlgorithm.jar ./McpeSMail.jar ./CRolePlay.jar ./CMultiWorld.jar
+

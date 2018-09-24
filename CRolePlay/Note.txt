@@ -1,0 +1,4 @@
+player_level: 
+ min_level:
+ max_level:
+ initial_level: 

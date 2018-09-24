@@ -1,0 +1,4 @@
+name: CNewbie
+main: cosr.newbie.CNewbie
+version: 1.0
+api: ['1.0.0']

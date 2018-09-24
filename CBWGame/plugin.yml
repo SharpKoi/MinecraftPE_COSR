@@ -1,0 +1,12 @@
+name: CBWGame
+api: "1.0.0"
+version: 1.0
+author: Cmen
+main: cosr.cbwg.CBWMain
+commands:
+ cbw: 
+  description: "別踩白塊兒~"
+  usage: "/cbw"
+ loc:
+  description: "test"
+  usage: "/loc"

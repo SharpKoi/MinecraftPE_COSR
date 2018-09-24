@@ -1,0 +1,67 @@
+#經濟核心
+	#金錢收支
+		支出: 個人商店消費、廣告
+		收入: 個人商店賺錢、工作、
+	#物件: 
+		Shop 			| id, name, owner, itemId, count, storedAmount, cost, levelName, coordinate
+		Bank			| moneyMap(Map<String, double>), interest, loanMap(Map<String, double>)
+		Advertise		| shop(Shop), description, count(廣播次數)
+		Job				| enum, 
+		InterestUpdator | interest(double)
+		AdvertiseTask	| ads(List<Advertise>), 
+		
+		
+	#指令: 
+		/c$ help											查看經濟指令幫助
+		/c$ give 	     [player] [dollar]					給予其他玩家金錢
+		/c$ wallet
+		/cshop help											查看自己的錢包							
+		/cshop create    [name]   [ItemID] [count] [cost]	創建木牌商店 
+		/cshop replenish [id]	  [count]					替該編號的商店補貨，身上必須要有足夠的物品數量
+		/cshop extract   [id]	  [count]					從該編號的商店中取出物品
+		/cshop del	     [id]								移除該編號的商店
+		/cshop ad		 [id]	  [discription]				花費一定金額，幫該編號商店打廣告
+		/cshop list											列出自己所有的木牌商店
+		/cshop ui											打開個人商店管理介面
+		/cbank 												查看當前伺服器銀行信息(利息、儲存金額)
+		/cbank help											打開銀行幫助選項
+		/cbank store     [dollar]							將錢存入銀行
+		/cbank draw	     [dollar]							將錢從銀行中取出
+		/cbank loan		 [dollar]							向銀行貸款(1周內未償還將自動扣除該玩家所持金額)
+		/cjob help											打開工作指令幫助
+		/cjob list											列出當前所有工作
+		/cjob get		 [name]								取得該項工作
+		/cjob leave		 									辭職
+
+	#主要功能: 
+		關於金錢(Map<String, int>)
+		1. 玩家不可消費價格高於自己所持金額的物品
+		2. 一旦因特殊原因導致所持金額為負，則不能申請工作機會
+	
+		關於木牌商店(Shop-PersonalShop, ServerShop)
+		1. 用指令或介面建立一個Shop對象，點擊木牌以完成創建
+		2. 用破壞木牌的方式移除商店，亦可用指令移除某id商店
+		3. 當賣家創建完商店，玩家身上要售出的物品將會全數被放入商店
+		4. 當玩家拿著自己商店賣的物品，點擊自己的木牌商店時，手上的東西將會被自動放入商店以供販售
+		5. 玩家可用指令替自己的商店補貨
+		6. 玩家可用指令取出自己商店中存有的東西
+		7. 個人商店管理介面
+		8. 當玩家列出自己所有的商店資訊時，按照頁數顯示，每頁顯示4個商店資訊
+		9. 玩家可透過買廣告來向全頻廣播自己的商店
+		
+		關於銀行
+		1. 玩家可將自己的錢存在銀行裡
+		2. 銀行利率每天隨機 0.1% ~ 0.9%
+		
+		關於工作
+		1. 玩家一次只能選擇一個工作
+		2. 當玩家所持金額為負時則不能接工作
+		
+	#配置檔:
+		ServerShops.yml, Bank.yml, PlayerDataBase
+		
+	#備註: 
+		
+		
+	
+		

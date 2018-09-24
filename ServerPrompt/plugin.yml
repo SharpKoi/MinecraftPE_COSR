@@ -1,0 +1,8 @@
+name: ServerPrompt
+main: plugin.java.ServerPrompt
+version: 1.0
+api: "1.0.0"
+commands:
+ prompt:
+  description: "set the imformation of the server prompt"
+  usage: "/prompt [set;clear;show]"

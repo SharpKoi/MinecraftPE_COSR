@@ -1,0 +1,9 @@
+name: CVIP
+main: cosr.vip.CVIP
+version: 1.0
+api: ["1.0.0"]
+depend: [CRolePlay]
+commands: 
+ cvip: 
+  description: "課金入魔女教!!"
+  usage: /cvip help

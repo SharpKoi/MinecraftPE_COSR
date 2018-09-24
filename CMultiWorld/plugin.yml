@@ -1,0 +1,10 @@
+name: CMultiWorld
+version: 1.0
+author: Cmen
+main: cosr.multiworld.Main
+api: "1.0.0"
+commands: 
+ cworld:
+  aliases: [cworld, cw]
+  description: "Use this to teleport or manage your levels"
+  usage: "Usage: \n/cworld tpui \n/cworld new [levelname] [leveltitle] [type(flat,survive,nether)]"

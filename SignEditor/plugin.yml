@@ -1,0 +1,8 @@
+name: SignEditor
+main: cosr.sign.editor.SignEditor
+version: 1.0
+api: ["1.0.0"]
+commands: 
+ se: 
+  description: "get sign editor"
+  usage: "/se"

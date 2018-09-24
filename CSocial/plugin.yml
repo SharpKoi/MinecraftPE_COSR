@@ -1,0 +1,29 @@
+name: CSocial
+main: cosr.friend.SocialMain
+api: "1.0.0"
+version: 1.0
+depend: [McpeSMail, CMultiWorld, CRolePlay, CEconomy]
+commands: 
+  csocial:
+   description: "社交系統"
+  cfriend: 
+    description: "朋友功能"
+    usage: "\n
+    /cfriend help\n
+    /cfriend my  列出自己所有的好友\n
+    /cfriend requests  列出當前尚未處理的交友邀請\n
+    /cfriend add [player_name]  對該玩家送出好友邀請\n
+    /cfriend retract [player_name]  收回對該玩家送出的好友邀請\n
+    /cfriend accept [player_name]  接受該玩家的交友邀請\n
+    /cfriend deny [player_name]  拒絕該玩家的交友邀請\n
+    /cfriend remove [player_name]  將該好友從您的好友名單中移除\n"
+  cmarry:
+    description: "結婚功能"
+    usage: "\n
+    /cmarry help\n
+    /cmarry my  顯示伴侶的名字\n
+    /cmarry propose [player_name]  對該玩家送出告白\n
+    /cmarry accept  接受玩家的告白\n
+    /cmarry deny  拒絕玩家的告白\n
+    /cmarry tp  傳送到伴侶身邊\n
+    /cmarry break  與伴侶分手QQ\n"

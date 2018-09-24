@@ -1,0 +1,14 @@
+name: WorldEdit
+main: we.java.Main
+version: 1.0
+api: "1.0.0"
+commands:
+ pos:
+  description: "Test Command"
+  usage: "\n
+  /pos start  使用小木斧快速建造\n
+  /pos measure  使用小木斧測量\n
+  /pos stop  停止使用小木斧\n
+  /pos lw show  列出小木斧白名單\n
+  /pos lw add [player_name]  新增玩家至小木斧白名單\n
+  /pos lw del [player_name]  將玩家從小木斧白名單中移除"

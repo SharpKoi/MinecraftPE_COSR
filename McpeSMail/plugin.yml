@@ -1,0 +1,10 @@
+name: McpeSMail
+main: cosr.mcpemail.Main
+version: 1.0
+api: "1.0.0"
+Author: Cmen
+description: "this plugin allow players to send mails to other people."
+commands:
+ mail:
+  description: "Mail Feature"
+  usage: "/mail send [player_name] [subject] [content] \n/mail read [mailID] \n/mail del [mailID] \n/mail clear \n/mail ui \n/mail gset addr [Example@gmail.com] \n/mail gset pw [password] \n/mail gset src [mail_source] \n/mail gset tm [Example@gmail.com]"

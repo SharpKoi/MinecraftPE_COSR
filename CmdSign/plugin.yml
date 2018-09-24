@@ -1,0 +1,11 @@
+name: CmdSign
+main: cosr.cmdsign.Main
+version: 1.0
+api: "1.0.0"
+Author: Cmen
+commands:
+ csign:
+  aliases: [csign, csn, cs]
+  description: "Make a command sign"
+  usage: "Usage: /csign [type] [title] [description] [command]"
+  permission: op
