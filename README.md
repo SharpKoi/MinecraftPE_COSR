@@ -7,9 +7,9 @@ If you want to join us or have any question, welcome to contact with us.
 
 ## About COSR
 ### Members:
-	1) Chadigo(server master)
-	2) 凱杰(web designer)
-	3) Cmen(plugin developer)
+* Chadigo(server master)
+* 凱杰(web designer)
+* Cmen(plugin developer)
 
 
 ## About Server
