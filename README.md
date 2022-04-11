@@ -1,4 +1,4 @@
-# Nukkit Legacy Plugins
+# Nukkit Legacy Plugins By COSR
 
 This repository stores the [Nukkit](https://github.com/Nukkit/Nukkit) plugins we have designed long time ago (about 6 years ago I guess). Now we publish those codes for everyone. Almost of them still work fine on [NukkitX](https://github.com/CloudburstMC/Nukkit) and [PowerNukkit](https://github.com/PowerNukkit/PowerNukkit). All of them are completely free and feel free to download them by command `git clone https://github.com/SharpKoi/nukkit-legacy-plugins.git`.
 
